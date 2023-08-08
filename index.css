@@ -1,3 +1,69 @@
-#heading{
-    color:red
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-items > ul {
+  display: flex;
+  font-size: 18px;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.res-card {
+  margin: 10px;
+  width: 200px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-desc > span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.img-star {
+  width: 12px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px;
+  display: none;
+}
+
+.footer-container > h4 {
+  margin: 10px;
+}
+
+.footer-container > h4:hover {
+  color: blue;
 }
