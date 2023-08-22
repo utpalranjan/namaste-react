@@ -68,5 +68,10 @@
   color: blue;
 }
 
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
+}
+
 
 /*# sourceMappingURL=/namaste-react.9ad09f98.css.map */

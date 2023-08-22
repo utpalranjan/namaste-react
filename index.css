@@ -67,3 +67,8 @@
 .footer-container > h4:hover {
   color: blue;
 }
+
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
+}
