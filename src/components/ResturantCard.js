@@ -4,7 +4,7 @@ import { RATINGS_IMG } from "../utils/constant";
 
 const ResturantCard = (props) => {
     const { resData } = props;
-  
+    console.log(resData,'sadsadsa')
     const {
       cloudinaryImageId,
       name,
@@ -12,7 +12,7 @@ const ResturantCard = (props) => {
       avgRating,
       deliveryTime,
       costForTwo,
-    } = resData.data.data;
+    } = resData;
   
     return (
       <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
@@ -38,11 +38,11 @@ const ResturantCard = (props) => {
         </p>
         <p className="res-desc">
           <span>ETA : </span>
-          {deliveryTime} minutes
+          {resData.sla.deliveryTime} minutes
         </p>
         <p className="res-desc">
           <span>Price : </span>
-          {costForTwo / 100} For Two
+          {costForTwo} 
         </p>
       </div>
     );

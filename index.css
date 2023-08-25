@@ -19,10 +19,10 @@
   padding: 10px;
 }
 
-.search {
+/* .search {
   padding: 10px;
   font-size: 14px;
-}
+} */
 
 .res-card {
   margin: 10px;
@@ -71,4 +71,26 @@
 .filter-btn{
   margin: 10px;
   cursor: pointer;
+}
+
+.shimmer-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-data{
+  width:200px;
+  height: 400px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.search{
+  display: flex;
+}
+
+.search-bar{
+  display: flex;
+  height: 30px;
+  margin-top: 5px;
 }
