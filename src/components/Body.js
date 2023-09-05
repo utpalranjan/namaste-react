@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ResturantCard from "./ResturantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
@@ -12,7 +12,7 @@ const Body = () => {
     let resList1 = listOfResturants.filter((res) => {
       return res.info.avgRating > 4.2;
     });
-    setListOfResturants(resList1);
+    setFilteredResturants(resList1);
   };
 
   useEffect(() => {

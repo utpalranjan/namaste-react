@@ -1,4 +1,4 @@
-import React from "react";
+
 import { CDN_URL } from "../utils/constant";
 import { RATINGS_IMG } from "../utils/constant";
 

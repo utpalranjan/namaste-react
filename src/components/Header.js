@@ -1,4 +1,4 @@
-import React from "react";
+
 import { LOGO_URL } from "../utils/constant";
 import { useState } from "react";
 
